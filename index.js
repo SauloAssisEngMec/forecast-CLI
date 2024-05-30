@@ -5,9 +5,6 @@ module.exports = () => {
 
   const args = minimist(process.argv.slice(2));
 
-  // console.log(cmd);
-  // console.log(args.location);
-
   let commands = args._[0] || "help";
 
   if (args.version || args.v) {

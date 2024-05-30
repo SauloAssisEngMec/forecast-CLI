@@ -7,6 +7,9 @@
   },
   "scripts": {},
   "dependencies": {
-    "minimist": "^1.2.8"
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "minimist": "^1.2.8",
+    "ora": "^8.0.1"
   }
 }

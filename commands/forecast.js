@@ -1,3 +1,3 @@
 module.exports = (args) => {
-  console.log("forecast data");
+  console.log("case forecast");
 };
