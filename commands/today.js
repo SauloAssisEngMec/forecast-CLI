@@ -11,11 +11,11 @@ module.exports = async (args) => {
     const lng = args.longitude || args.lng;
     const weather = await getWeather(lat, lng);
 
-    console.log(weather);
-
     spinner.stop();
 
-    // console.log(`current forecast in ${location}`);
+    console.log(
+      `\tcurrent forecast in latitude: ${lat} and longitude:${lng}\n`
+    );
     console.log(
       `\t temperature:${weather.temperature} condition:${weather.condition}`
     );
